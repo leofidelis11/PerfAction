@@ -17,11 +17,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: jmeter-results
-          path: result.jtl
-
-      - name: Dashboard
-        uses: actions/upload-artifact@v2
-        with:
-          name: jmeter-results-dash
-          path: dashBoard/
-          command: npm run jmeter
+          path: resultGit.jtl
