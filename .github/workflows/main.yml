@@ -19,9 +19,4 @@ jobs:
           name: jmeter-results
           path: resultGit.jtl
 
-      name: Run JMeter Action on a test
-        uses: rbhadti94/apache-jmeter-action@v0.5.0
-        with:
-          testFilePath: ./TestPlans/Consulta_CEP/consulta_de_cep.jmx
-          outputReportsFolder: reports/
-          args: "--loglevel INFO"
+     
