@@ -10,7 +10,7 @@ jobs:
       - name: Run JMeter Tests
         uses: ./
         with:
-          test-plan-path: ./TestPlans/Consulta_CEP/consulta_de_cep.jmx
+          test-plan-path: './TestPlans/Consulta_CEP/consulta_de_cep.jmx'
           args: ""
           
       - name: Upload Results
