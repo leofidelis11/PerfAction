@@ -23,4 +23,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: jmeter-results-dash
-          path: jmeter -g result.jtl -o dashBoardReport
+          path: dashBoard/
+          command: npm run jmeter
