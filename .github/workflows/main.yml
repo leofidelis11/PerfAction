@@ -23,3 +23,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           command: jmeter -g result.jtl -o dashBoardReport
+          name: jmeter-results-dash
+          path: result.jtl
